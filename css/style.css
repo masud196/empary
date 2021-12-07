@@ -1,0 +1,33 @@
+/* Code tidied up by ScrapBook */
+@charset "utf-8";
+html { height: 100%; min-height: 100%; }
+body { height: 100%; min-height: 100%; font-size: 14px; color: rgb(255, 255, 255); background: url("../images/bg.jpg") repeat scroll 0% 0% rgb(255, 255, 255); position: relative; font-family: Tahoma,Arial,Helvetica,sans-serif; }
+.hide { display: none ! important; }
+p { margin-bottom: 10px; }
+.floatright { float: right; }
+img.autoresize { max-width: 100%; }
+.clear { clear: both; }
+.highlight { color: rgb(244, 1, 172) ! important; }
+a { transition: all 200ms ease-in-out 0s; }
+.rounded { border-radius: 10px; }
+.wrapper { width: 1000px; position: relative; margin: 0px auto; }
+#box { float: left; width: 500px; padding: 30px 40px; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.9); box-shadow: 0px 0px 30px rgb(255, 255, 255); border-radius: 10px; border: 2px solid rgb(34, 34, 34); position: absolute; left: 50%; top: 50%; margin-left: -292px; margin-top: -250px; }
+.top { float: left; width: 100%; text-align: center; }
+.top h1 { float: left; width: 100%; text-align: center; font-size: 36px; font-weight: bold; }
+.top h2 { float: left; width: 100%; text-align: center; font-size: 26px; font-weight: bold; margin-bottom: 30px; }
+.steps { float: left; width: 100%; text-align: center; margin-top: 25px; }
+.steps h3 { float: left; width: 100%; text-align: center; font-size: 21px; font-weight: bold; margin-bottom: 25px; }
+.steps ul.buttons { float: left; width: 100%; list-style: none outside none; text-align: center; margin: 10px 0px 20px; }
+.steps ul.buttons li { display: inline-block; margin: 0px 10px; }
+.steps .loading { float: left; width: 100%; text-align: center; margin: 10px 0px; }
+a.btn { display: inline-block; padding: 12px 20px; background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); border-radius: 4px; }
+a.btn:hover { background: none repeat scroll 0% 0% rgb(244, 1, 172); color: rgb(255, 255, 255); text-decoration: none; }
+a.btnBig { display: none; clear: both; float: left; width: 100%; font-size: 24px; font-weight: bold; color: rgb(255, 255, 255); border: 2px solid rgb(183, 0, 129); text-shadow: 2px 2px 0px rgb(183, 0, 129); padding: 12px 0px; border-radius: 6px; margin-top: 15px; background: linear-gradient(to bottom, rgb(244, 1, 172) 1%, rgb(154, 0, 109) 100%) repeat scroll 0% 0% transparent; }
+a.btnBig:hover { background: linear-gradient(to bottom, rgb(154, 0, 109) 1%, rgb(244, 1, 172) 100%) repeat scroll 0% 0% transparent; }
+.step2, .step3, .step4, .number1, a.btn.btnBig, .number2, .number3, .number4 { display: none; }
+@media screen and (max-width: 767px) {
+  #box { width: 400px; padding: 30px 10px; margin-left: -212px; margin-top: -250px; }
+}
+@media only screen and (max-width: 479px) {
+  #box { width: 300px; padding: 30px 5px; margin-left: -157px; margin-top: -250px; }
+}
